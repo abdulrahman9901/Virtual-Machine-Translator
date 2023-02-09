@@ -74,7 +74,7 @@ and Function commands (**function** which declares a function , **call** which u
 
 ## Notes
 
-### These are some sympols and rules that translator follows 
+### These are some sympols and rules that the translator uses/follows to perform it's job .
 <img alt="" src="./docs/images/Special sympols.png"/></br>
  
 ### At [docs/Examples](./docs/Examples) folder some examples for VM files translated to asm .
