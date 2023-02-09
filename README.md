@@ -35,8 +35,15 @@ and Function commands (**function** which declares a function , **call** which u
 
 ### Function commands
 
+#### Call command
 <img alt="" src="./docs/images/func1.png"/></br>
+
+#### Function excution & Return commands
+
 <img alt="" src="./docs/images/func2.png"/></br>
+
+#### Memory recycle after return command
+
 <img alt="" src="./docs/images/func3.png"/></br>
 
 ### Working Stack during excution
