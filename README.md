@@ -21,7 +21,7 @@ The latter command is the generic push command for which the first argument is c
 
  
 
-Stage II: Handling memory access commands: The next version of the basic VM translator should include a full implementation of the VM language's push and pop commands, handling the eight memory segments described as follows **constant ,local, argument, this, that, pointer, temp, static segments** . 
+Stage II: Handling memory access commands: The next version of the basic VM translator should include a full implementation of the VM language's push and pop commands, handling the eight memory segments described as follows **constant,local, argument, this, that, pointer, temp, static segments** . 
 and also includes the Branching commands (label ,if-goto , goto)
 and Function commands (**function** which declares a function , **call** which used to call a function ,**return** which used to return from a function ) 
 
@@ -50,18 +50,18 @@ and Function commands (**function** which declares a function , **call** which u
 <img alt="" src="./docs/images/Gstack.png"/></br>
 
 ## Preparing the code to work
-### After we Translate the code we need add Bootstrap code to initailize the Virtual machine memory before starting the code 
+### After we translate the code, we need to add Bootstrap code to initialise the Virtual machine memory before executing the code 
 
 <img alt="" src="./docs/images/memory structure.png"/></br>
 
 ## The big picture
-### At the end the overall Translator work is to produce code that work efficiently and smoothly on the paltform the will excute the code by handling complex not only naive oprations such as 
-* ### defining and creating variables .
-* ### Loops , conditional and unconditional branches.
+### At the end, the overall Translator job is to generate code that works efficiently and smoothly on the platform executing the code by handling not only naive operations, but also complex operations such as 
+* ### Defining and creating variables.
+* ### Loops, conditional and unconditional branches.
 * ### Classes , Objects , Member variables and Methods .
-* ### Functions creation , calls and returns .
-* ### Recursion issues .
-* ### Static and Global variables .
+* ### Functions creation, calls and returns.
+* ### Recursion issues.
+* ### Static and Global variables.
 * ### Including different Classes(Liberaries) .
 * ### ... etc.
 <img alt="" src="./docs/images/vm to asm.png"/></br>
@@ -74,7 +74,7 @@ and Function commands (**function** which declares a function , **call** which u
 
 ## Notes
 
-### These are some sympols and rules that the translator uses/follows to perform it's job .
+### These are some sympols and rules that the translator uses/follows to perform it's job.
 <img alt="" src="./docs/images/Special sympols.png"/></br>
  
 ### At [docs/Examples](./docs/Examples) folder some examples for VM files translated to asm .
